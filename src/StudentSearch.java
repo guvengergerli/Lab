@@ -23,7 +23,7 @@ public Student findOne(ArrayList<Student> students, String name) throws Exceptio
         ArrayList<Student> result = new ArrayList<Student>();
         for (Student student: students)
             if (student.getName().equals(name)) {
-                result.add(student);
+                result.add(student); // commit 1
             }
 
         if (result.isEmpty()) {
